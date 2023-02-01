@@ -9,6 +9,45 @@
   <title>Form dropdown</title>
 </head>
 <body>
+  <h1 id="header">Form input through Dropdown </h1>
+  <form action="" id="form">
+    <!-- user name input -->
+    <div>
+      <label for="user">UserName</label>
+      <input type="text" id="user" required>
+    </div>
+   
+    <!-- user age input -->
+    <div>
+      <label for="age">Age</label>
+      <input type="number" min="1" id="age" required>
+    </div>
+    
+    <!-- User address -->
+    <select name="country" id="country" size="1">
+      <option value="select-country">-- Select country --</option>
+    </select>
+
+    <select name="state" id="state">
+      <option value="select-state">--  Select state --</option>
+    </select>
+
+    <select name="city" id="city">
+      <option value="select-city">-- select city --</option>
+    </select>
+
+    <select name="zipcode" id="zipcode">
+      <option value="select-zipcode">-- Select zip code</option>
+    </select>
+    
+    <!-- user email input -->
+    <div>
+      <label for="email">Email</label>
+      <input type="email" required/>
+    </div>
+    
+    <button type="submit">submit</button>
+  </form>
   
   
 </body>
