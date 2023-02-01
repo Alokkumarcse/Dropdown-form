@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background-image: linear-gradient(rgb(122, 118, 118), rgb(184, 173, 173), rgb(116, 114, 114));
+}
+
 h1{
   margin: 20px 0;
   text-align: center;
